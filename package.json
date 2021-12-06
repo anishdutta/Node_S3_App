@@ -1,0 +1,27 @@
+{
+  "name": "nodes3",
+  "version": "1.0.0",
+  "description": "Node app with AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anishdutta/Node_S3_App.git"
+  },
+  "author": "Anish Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anishdutta/Node_S3_App/issues"
+  },
+  "homepage": "https://github.com/anishdutta/Node_S3_App#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1043.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
